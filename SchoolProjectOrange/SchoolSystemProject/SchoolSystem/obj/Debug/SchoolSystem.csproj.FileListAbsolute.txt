@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\bin\Debug\SchoolSystem.exe.config
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\bin\Debug\SchoolSystem.exe
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\bin\Debug\SchoolSystem.pdb
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\obj\Debug\SchoolSystem.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\obj\Debug\SchoolSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\obj\Debug\SchoolSystem.exe
+C:\Users\user\Desktop\C# Projects\SchoolProjectOrange\SchoolSystemProject\SchoolSystem\obj\Debug\SchoolSystem.pdb
