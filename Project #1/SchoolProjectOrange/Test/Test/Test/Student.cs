@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    internal class Student
+    internal class Student : Hybrid
     {
         private string name;
         private int age;
+        
+        public Student()
+        {
+            name = "Unknown";
+            age = 0;
+        }
 
         public Student(string name, int age)
         {
@@ -30,9 +36,15 @@ namespace Test
         }
 
 
-        public void DisplayInfo()
+        public  void DisplayInfo()
         {
             Console.WriteLine($"Name: {name}, Age: {age}");
         }
+
+        public void DisplayError(string message)
+        {
+            Console.WriteLine($"Error: {message}");
+        }
+
     }
 }

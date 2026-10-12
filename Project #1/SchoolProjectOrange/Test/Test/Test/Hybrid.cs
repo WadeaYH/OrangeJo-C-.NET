@@ -8,8 +8,8 @@ namespace Test
 {
     internal interface Hybrid
     {
-        public void DisplayInfo();
-        public void DisplayError(string message);
+        void DisplayInfo();
+        void DisplayError(string message);
         
     }
 }

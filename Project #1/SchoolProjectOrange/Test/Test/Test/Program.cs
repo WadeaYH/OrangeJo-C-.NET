@@ -11,6 +11,8 @@ namespace Test
         static void Main(string[] args)
         {
             Student student = new Student("John Doe", 20);
+            Student student2 = new Student("Jane Smith", 21);
+            Student student3 = new Student("Bob Johnson", 22);
             student.DisplayInfo();
             student.Name = "Wadea";
             student.Age = 22;
@@ -19,12 +21,10 @@ namespace Test
 
             Console.WriteLine("\n\n\n\n");
 
-            string num = "42";
-            int num2 = int.Parse(num);
-            string num3 = num2.ToString();
-
-            num += ", France";
-            Console.WriteLine(num);
+            student2.DisplayInfo();
+            student2.Name = "Leen";
+            student2.DisplayInfo();
+            student2.DisplayError("This is an error message for student2.");
         }
     }
 }
