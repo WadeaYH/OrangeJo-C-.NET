@@ -14,17 +14,19 @@ namespace Test
             Student student2 = new Student("Jane Smith", 21);
             Student student3 = new Student("Bob Johnson", 22);
             student.DisplayInfo();
-            student.Name = "Wadea";
+            student.name = "Wadea";
             student.Age = 22;
             student.DisplayInfo();
 
 
-            Console.WriteLine("\n\n\n\n");
+            //Console.WriteLine("\n\n\n\n");
 
-            student2.DisplayInfo();
-            student2.Name = "Leen";
-            student2.DisplayInfo();
-            student2.DisplayError("This is an error message for student2.");
+            //student2.DisplayInfo();
+            //student2.name = "Leen";
+            //student2.DisplayInfo();
+            //student2.DisplayError("This is an error message for student2.");
+
+           
         }
     }
 }

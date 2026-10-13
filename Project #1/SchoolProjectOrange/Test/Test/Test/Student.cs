@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    internal class Student : Hybrid
+    internal class Student
     {
-        private string name;
+        public string name { get; set; }
         private int age;
-        
+
+        public string message { get; set; }
+
         public Student()
         {
             name = "Unknown";
@@ -23,16 +25,22 @@ namespace Test
             this.age = age;
         }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+        //public string Name
+        //{
+        //    get { return name; }
+        //    set { name = value; }
+        //}
 
         public int Age
         {
             get { return age; }
-            set { age = value; }
+            set {
+                if(value > 100)
+                {
+                    DisplayError("Age cannot be greater than 100.");
+                    return;
+                }
+                age = value; }
         }
 
 
